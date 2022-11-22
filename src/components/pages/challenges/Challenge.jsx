@@ -30,56 +30,56 @@ const Challenge = () => {
             </div>
             <hr />
             <div className="challenge--details">
-              <span>
-                {item.first.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.first.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.second.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.second.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.third.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.third.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.fourth.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.fourth.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.fifth.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.fifth.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.sixth.icon}
+              <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.sixth.details}
               </span>
             </div>
             <div className="challenge--details">
-              <span>
-                {item.seventh.icon}
+             <span className='challenge--icon'>
+                <img src={item.first.icon} alt='bull icon' />
               </span>
               <span>
                 {item.seventh.details}
