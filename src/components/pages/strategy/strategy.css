@@ -53,3 +53,27 @@
 .strategy--card__details {
   color: var(--grey);
 }
+
+@media screen and (max-width: 768px) {
+  .strategy--container {
+    padding: 40px 10px;
+  }
+
+  .strategy--header {
+    font-size: var(--fontSizeMedium);
+    padding: 0;
+  }
+
+  .strategy--card {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .strategy--card__item {
+    border-bottom: 1px solid var(--lightBlue);
+    padding-bottom: 15px;
+  }
+
+  .strategy--card__header {
+    justify-content: center;
+  }
+}
