@@ -6,7 +6,7 @@
 
 :root {
   --darkBlue: #0e0e15;
-  --lightBlue: #474E68;
+  --lightBlue: #0e41f8ad;
   --purple: #50577A;
   --lightPurple: #6B728E;
   --containerWidth: 1200px;
@@ -16,6 +16,7 @@
   --fontSizeMedium: 18px;
   --white: #fff;
   --grey: rgba(255, 255, 255, 0.535);
+  --blue: rgb(59, 59, 233);
 }
 
 .app {

@@ -307,7 +307,7 @@ export const challengeData = [
     amount: '$300',
     name: 'Service Fee',
     first: {
-      icon: 'assets/pngwing.com.png',
+      icon: 'assets/output-onlinepngtools.png',
       details: 'Passing Challenge & Verification'
     },
     second: {
@@ -340,7 +340,7 @@ export const challengeData = [
     amount: '$300',
     name: 'Service Fee',
     first: {
-      icon: 'assets/pngwing.com.png',
+      icon: 'assets/output-onlinepngtools.png',
       details: 'Passing Challenge & Verification'
     },
     second: {
@@ -373,7 +373,7 @@ export const challengeData = [
     amount: '$300',
     name: 'Service Fee',
     first: {
-      icon: 'assets/pngwing.com.png',
+      icon: 'assets/output-onlinepngtools.png',
       details: 'Passing Challenge & Verification'
     },
     second: {
@@ -406,7 +406,7 @@ export const challengeData = [
     amount: '$300',
     name: 'Service Fee',
     first: {
-      icon: 'assets/pngwing.com.png',
+      icon: 'assets/output-onlinepngtools.png',
       details: 'Passing Challenge & Verification'
     },
     second: {

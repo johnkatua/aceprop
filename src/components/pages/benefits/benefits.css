@@ -71,14 +71,18 @@
 }
 
 .benefits--item--started{
-  padding: 15px;
-  font-size: larger;
-  text-align: center;
-  border-radius: 9px;
-  width: 160px !important;
-  color: var(--white);
-  background-color: transparent !important;
-  box-shadow: inset 0px 0px 0px 2px #0881fe;
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  border-radius: 40px;
+  background-color: var(--blue);
+  width: 250px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.benefits--item--started:hover {
+  background-color: var(--lightBlue);
 }
 
 .benefits--right__header {
