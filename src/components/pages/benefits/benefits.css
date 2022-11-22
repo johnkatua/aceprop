@@ -102,7 +102,10 @@
 
   .benefits--cards__items {
     width: 150px;
-    border-right: 1px solid var(--lightBlue);
     padding: 0 10px;
+  }
+  
+  .benefits--cards__items:not(:last-child) {
+    border-right: 1px solid var(--lightBlue);
   }
 }
