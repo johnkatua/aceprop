@@ -4,21 +4,26 @@
   width: 100%;
   height: auto;
   padding: 40px 0;
-  /* background-color: yellow; */
 }
 
 .services--header {
-  font-size: var(--fontSizeLarge);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px 0;
-  color: blue;
-  font-weight: 600;
+  font-size: var(--fontSizeLarge);
+  font-weight: bolder;
+  background-image: linear-gradient(45deg, #fff, gray);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 .services--details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* background-color: yellowgreen; */
   gap: 20px;
 }
 
