@@ -68,3 +68,23 @@
   line-height: 1.5;
   font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+  .customer--container {
+    padding: 40px 10px;
+  }
+
+  .customer--header {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .customer--cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .customer--cards__item:nth-child(2) {
+    margin: 0;
+  }
+
+}
