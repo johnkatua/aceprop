@@ -29,11 +29,9 @@ function UncontrolledExample() {
       <Carousel.Item className='carousel--item'>
         <div className='carousel--details'>
           <div className='intro--details__left'>
-            <h2>Earn with Zero hustle</h2>
+            <h2>Want to become A Funded Trader</h2>
             <p>
-              Our team of professional traders will help you secure a
-              Funded account and receive up to 90% of profits, 
-              while we do all the hard work for you.
+              We will help you PASS prop firm challenges and get a Funded Account.
             </p>
             <button>
               Get Started

@@ -33,11 +33,16 @@
 
 .community--btn {
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 220px;
-  padding: 10px 0;
+  background-color: var(--blue);
+  width: 250px;
+  padding: 12px 0;
+  border-radius: 40px;
   color: var(--white);
-  border: 2px solid blue;
-  border-radius: 8px;
   cursor: pointer;
+}
+
+.community--btn:hover {
+  background-color: var(--lightBlue);
 }
