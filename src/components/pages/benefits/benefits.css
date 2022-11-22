@@ -1,8 +1,6 @@
 .benefits--container {
   display: flex;
   gap: 20px;
-  /* background-color: gray; */
-  /* border: 2px solid red; */
   max-width: var(--containerWidth);
   margin: 0 auto;
   width: 100%;
@@ -14,7 +12,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: green; */
   color: var(--white);
   width: 50%;
   gap: 20px;
@@ -24,23 +21,13 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  /* background-color: hotpink; */
-  /* border: 1px solid grey; */
-
-  /* border: 2px solid red; */
-
 }
 
 .benefits--cards__items {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  /* border: 1px solid grey; */
   padding-left: 10px;
-
-  /* background-color: indianred; */
-  /* border: 2px solid red; */
-
 }
 
 .benefits--item__header {
@@ -92,4 +79,30 @@
 
 .benefits--right__content {
   color: rgba(255, 253, 253, 0.44);
+}
+
+@media screen and (max-width: 768px) {
+  .benefits--container {
+    padding: 40px 10px;
+    flex-direction: column;
+  }
+
+  .benefits--left {
+    width: 100%;
+  }
+
+  .benefits--right {
+    width: 100%;
+  }
+
+  .benefits--cards {
+    overflow-x: scroll;
+    gap: 10px;
+  }
+
+  .benefits--cards__items {
+    width: 150px;
+    border-right: 1px solid var(--lightBlue);
+    padding: 0 10px;
+  }
 }

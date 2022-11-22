@@ -25,7 +25,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: azure; */
   color: var(--white);
   gap: 20px;
 }

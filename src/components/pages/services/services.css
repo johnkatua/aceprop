@@ -36,13 +36,12 @@
   border-radius: 20px;
   border: 1px solid grey;
   gap: 20px;
-  background: linear-gradient(180deg,rgba(27,23,36,.4),rgba(15,14,19,.4));
+  background: linear-gradient(45deg,rgba(27,23,36,.4),rgba(15,14,19,.4));
   padding: 40px;
 } 
 
 .services--item:hover{
-  border: 1px solid rgb(9, 0, 189);
-
+  border: 1px solid var(--lightBlue);
 }
 
 .services--item--title{
@@ -68,10 +67,24 @@
 }
 
 .services--item--body{
-  /* border: 2px solid red; */
-  /* height: 100%; */
   line-height: 1.5;
   text-size-adjust: 100%;
+}
 
+@media screen and (max-width: 768px) {
+  .services--container {
+    padding: 40px 10px;
+  }
 
+  .services--header {
+    font-size: var(--fontSizeMedium);
+  }
+
+  .services--details {
+    overflow-x: scroll;
+  }
+
+  .services--item {
+    width: 320px;
+  }
 }

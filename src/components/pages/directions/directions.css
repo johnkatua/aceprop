@@ -71,7 +71,6 @@
   }
 
   .directions--details {
-    grid-template-columns: repeat(4, 1fr);
     overflow-x: scroll;
   }
 
