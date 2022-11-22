@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import './header.css'
+import './header.css';
+import Modal from '../modal/Modal';
 
 const Header = () => {
   const [width, setWidth] = useState(0);
+  const [openModal, setOpenModal] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -36,8 +38,9 @@ const Header = () => {
             Join Our Telegram Community
           </div>
         </>
-        ): <div className='header--mobile__opener'>Mobile</div>}
+        ): <div className='header--mobile__opener' onClick={() => setOpenModal(true)}>Mobile</div>}
       </div>
+      <Modal open={openModal} closeModal={() => setOpenModal(false)} />
     </div>
   )
 }
