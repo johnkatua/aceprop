@@ -14,10 +14,6 @@
   padding: 20px 0;
   color: var(--white);
   font-weight: 600;
-}
-
-.directions--header h2 {
-  font-size: var(--fontSizeLarge);
   font-weight: bolder;
   background-image: linear-gradient(45deg, #fff, gray);
   background-size: 100%;
@@ -42,7 +38,6 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 20px;
   font-size: var(--fontSizeMedium);
   color: var(--white);
 }
@@ -60,10 +55,27 @@
 }
 
 .directions--item--text{
-  /* border: 2px solid red; */
   line-height: 1.5;
   margin-top: 10px;
   font-size: 20px;
   text-align: center;
+}
 
+@media screen and (max-width: 768px) {
+  .directions--container {
+    padding: 40px 10px;
+  }
+
+  .directions--header {
+    font-size: 32px;
+  }
+
+  .directions--details {
+    grid-template-columns: repeat(4, 1fr);
+    overflow-x: scroll;
+  }
+
+  .directions--item {
+    width: 200px;
+  }
 }

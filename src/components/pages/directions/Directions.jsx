@@ -5,9 +5,7 @@ const Directions = () => {
   return (
     <div className='directions--container'>
       <div className='directions--header'>
-        <h2>
-          How it works
-        </h2>    
+          How it works   
       </div>
       <div className='directions--details'>
         <div className="directions--item">
