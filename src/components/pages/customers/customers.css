@@ -10,9 +10,18 @@
 }
 
 .customer--header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
   font-size: var(--fontSizeLarge);
-  color: var(--white);
+  font-weight: bolder;
+  background-image: linear-gradient(45deg, #fff, gray);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 .customer--cards {
