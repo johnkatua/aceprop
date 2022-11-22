@@ -1,6 +1,5 @@
 .footer--top {
   padding: 40px 0;
-  /* border: 2px solid red; */
 }
 
 .footer--top__box {
@@ -14,14 +13,21 @@
   padding: 10px;
   padding-right: 40px;
   color: #fff;
-  /* border: 2px solid red; */
   background: linear-gradient(180deg,rgba(27,23,36,.4),rgba(15,14,19,.4));
 
 }
 
 .footer--top__header {
-  font-size: 32px;
-  font-weight: 800;
+  display: flex;
+  align-items: center;
+  font-size: var(--fontSizeLarge);
+  font-weight: bolder;
+  background-image: linear-gradient(45deg, #fff, gray);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
 }
 
 .footer--top__details {
