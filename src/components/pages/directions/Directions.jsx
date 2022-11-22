@@ -4,7 +4,11 @@ import './directions.css';
 const Directions = () => {
   return (
     <div className='directions--container'>
-      <div className='directions--header'>How it works</div>
+      <div className='directions--header'>
+        <h2>
+          How it works
+        </h2>    
+      </div>
       <div className='directions--details'>
         <div className="directions--item">
           <div className='directions--item--number'>1</div>
