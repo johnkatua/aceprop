@@ -1,5 +1,4 @@
 .carousel--item {
-  /* border: 1px solid gray; */
   width: 100vw;
   max-width: var(--containerWidth);
   height: calc(100vh - 80px);
@@ -8,7 +7,6 @@
 .carousel--details {
   width: 100%;
   height: 100%;
-  /* margin: 20px; */
   display: flex;
 }
 
@@ -17,12 +15,10 @@
   justify-content: center;
   flex-direction: column;
   width: 50%;
-  /* height: 80%; */
   margin-left: 80px;
   padding-left: 40px;
   gap: 20px;
   color: white;
-  /* background-color: hotpink; */
 }
 
 .intro--details__left button {
@@ -43,5 +39,15 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .intro--details__right {
+    display: none;
+  }
+
+  .intro--details__left {
+    width: 100%;
+  }
 }
 
