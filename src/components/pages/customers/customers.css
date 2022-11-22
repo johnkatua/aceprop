@@ -87,4 +87,18 @@
     margin: 0;
   }
 
+  .customer--footer {
+    flex-direction: column;
+  }
+
+  .customer--footer__left {
+    width: 100%;
+    color: white;
+    font-size: var(--fontSizeMedium);
+  }
+
+  .customer--footer__right {
+    width: 100%;
+  }
+
 }
