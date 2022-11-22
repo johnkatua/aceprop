@@ -1,0 +1,43 @@
+.community--container {
+  display: flex;
+  justify-content: flex-end;
+  /* background-color: ivory; */
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+}
+
+.community--details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: end;
+  width: 50%;
+}
+
+.community--details__header {
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.community--details__para {
+  color: var(--grey);
+}
+
+.community--btn {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  padding: 10px 0;
+  color: var(--white);
+  border: 2px solid blue;
+  border-radius: 8px;
+  cursor: pointer;
+}

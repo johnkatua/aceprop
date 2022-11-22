@@ -1,0 +1,89 @@
+.challenge--container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* background-color: violet; */
+  /* border: 2px solid red; */
+  color: var(--white);
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+  gap: 20px;
+}
+
+.challenge--card__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  
+}
+
+.challenge--card {
+  background-color: rgba(245, 222, 179, 0.015);
+  border: 1px solid gray;
+  height: auto;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+.challenge--card:hover {
+  border: 3px solid rgba(0, 0, 255, 0.481);
+}
+
+.challenge--text{
+  line-height: 1.5;
+  text-align: center;
+}
+
+.challenge--head{
+  font-size: xx-large;
+  font-weight: 800;
+}
+
+.challenge--price {
+  padding: 5px 0;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.challenge--details {
+  padding: 15px 0;
+  border-bottom: 1px solid gray;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.challenge--amount__container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.challenge--amount {
+  font-size: large;
+  font-weight: 600;
+}
+
+.challenge--btn {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background-color: blue;
+  outline: none;
+  border: none;
+  color: var(--white);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.challenge--btn:hover {
+  background-color: rgba(0, 0, 255, 0.481);
+}

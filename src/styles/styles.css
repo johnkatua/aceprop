@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkBlue: #0e0e15;
+  --lightBlue: #474E68;
+  --purple: #50577A;
+  --lightPurple: #6B728E;
+  --containerWidth: 1200px;
+  --mainGap: 20px;
+  --largeGap: 40px;
+  --fontSizeLarge: 42px;
+  --fontSizeMedium: 18px;
+  --white: #fff;
+  --grey: rgba(255, 255, 255, 0.535);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('../assets/home.png');
+  background-repeat: no-repeat;
+  background-color: var(--darkBlue);
+  background-size: 100% auto;
+  z-index: -1;
+  max-width: 100vw;
+}

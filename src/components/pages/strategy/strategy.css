@@ -1,0 +1,46 @@
+.strategy--container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: var(--containerWidth);
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 40px 0;
+}
+
+.strategy--header {
+  text-align: center;
+  font-size: var(--fontSizeLarge);
+  color: var(--white);
+}
+
+.strategy--card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.strategy--card__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.strategy--card__header {
+  color: var(--white);
+  filter: brightness(900%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.strategy--card__header img {
+  color: var(--white);
+  width: 20px;
+  height: 20px;
+}
+
+.strategy--card__details {
+  color: var(--grey);
+}

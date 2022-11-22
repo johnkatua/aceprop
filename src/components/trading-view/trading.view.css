@@ -1,0 +1,33 @@
+.trading--view {
+  display: flex;
+  height: 5em;
+
+}
+
+.trading--view__box {
+  position: relative;
+  width: 200%;
+  overflow: hidden;
+}
+
+.trading--view__details {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 200%;
+}
+
+.first {
+  animation: scroll 30s linear infinite;
+  width: 50%;
+}
+
+@keyframes scroll {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}

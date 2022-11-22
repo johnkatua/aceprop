@@ -1,0 +1,30 @@
+.intro--container {
+  height: calc(100vh - 80px);
+  position: relative;
+  background-color: black;
+  background: linear-gradient(to left, rgba(7, 6, 9, 0) 10%,
+              rgba(40, 12, 25)), url(assets/bearnbull.jpg);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.intro--details {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: var(--containerWidth);
+  bottom: 0;
+  margin: 0 auto;
+  gap: 20px;
+
+}
