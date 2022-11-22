@@ -1,7 +1,6 @@
 .community--container {
   display: flex;
   justify-content: flex-end;
-  /* background-color: ivory; */
   max-width: var(--containerWidth);
   margin: 0 auto;
   width: 100%;
@@ -45,4 +44,24 @@
 
 .community--btn:hover {
   background-color: var(--lightBlue);
+}
+
+@media screen and (max-width: 768px) {
+  .community--container {
+    padding: 40px 10px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: violet; */
+  }
+
+  .community--details {
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: wheat; */
+    width: 100%;
+  }
+
+  .community--details__para {
+    font-size: var(--fontSizeSmall);
+  }
 }
