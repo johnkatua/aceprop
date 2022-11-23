@@ -3,7 +3,7 @@ import './carousel.css'
 
 function UncontrolledExample() {
   return (
-    <Carousel fluid="lg" className='teta'>
+    <Carousel>
       <Carousel.Item className='carousel--item' >
         <div className='carousel--details'>
           <div className='intro--details__left'>
