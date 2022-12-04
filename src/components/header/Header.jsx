@@ -36,7 +36,9 @@ const Header = () => {
             <div>FAQ</div>
           </div>
           <div className='header--btn'>
-            Join Our Telegram Community
+            <a href='https://t.me/Emman_4X' target="_blank" rel="noopener noreferrer">
+              Join Our Telegram Community
+            </a>
           </div>
         </>
         ): (

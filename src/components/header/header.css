@@ -41,7 +41,17 @@
   background-color: blue;
   border-radius: 40px;
   font-size: 16px;
+  color: white;
   cursor: pointer;
+}
+
+.header--btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.header--btn a:hover {
+  color: white;
 }
 
 .header--btn:hover {
@@ -53,4 +63,10 @@
   justify-content: end;
   flex: 1;
   padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header--logo {
+    width: 200px;
+  }
 }
