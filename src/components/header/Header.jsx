@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import Modal from '../modal/Modal';
+import { FiMenu } from 'react-icons/fi'
 
 const Header = () => {
   const [width, setWidth] = useState(0);
@@ -38,7 +39,11 @@ const Header = () => {
             Join Our Telegram Community
           </div>
         </>
-        ): <div className='header--mobile__opener' onClick={() => setOpenModal(true)}>Mobile</div>}
+        ): (
+          <div className='header--mobile__opener' onClick={() => setOpenModal(true)}>
+            <FiMenu fontSize={"2rem"} />
+          </div>
+          )}
       </div>
       <Modal open={openModal} closeModal={() => setOpenModal(false)} />
     </div>
