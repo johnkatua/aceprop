@@ -316,28 +316,28 @@ export const challengeData = [
     },
     third: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Fresh and Accounts with Drawdown'
     },
     fourth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'One Time Payment'
     },
     fifth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '30 days max to Pass'
     },
     sixth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '24/7 customer support'
     },
     seventh: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Unlimited Free Retakes'
     }, 
   },
   {
-    price: '$25,000 Account',
-    amount: '$300',
+    price: '$50,000 Account',
+    amount: '$500',
     name: 'Service Fee',
     first: {
       icon: 'assets/output-onlinepngtools.png',
@@ -349,28 +349,28 @@ export const challengeData = [
     },
     third: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Fresh and Accounts with Drawdown'
     },
     fourth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'One Time Payment'
     },
     fifth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '30 days max to Pass'
     },
     sixth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '24/7 customer support'
     },
     seventh: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
-    }, 
+      details: 'Unlimited Free Retakes'
+    },  
   },
   {
-    price: '$25,000 Account',
-    amount: '$300',
+    price: '$100,000 Account',
+    amount: '$700',
     name: 'Service Fee',
     first: {
       icon: 'assets/output-onlinepngtools.png',
@@ -382,28 +382,28 @@ export const challengeData = [
     },
     third: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Fresh and Accounts with Drawdown'
     },
     fourth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'One Time Payment'
     },
     fifth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '30 days max to Pass'
     },
     sixth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '24/7 customer support'
     },
     seventh: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Unlimited Free Retakes'
     }, 
   },
   {
-    price: '$25,000 Account',
-    amount: '$300',
+    price: '$200,000 Account',
+    amount: '$900',
     name: 'Service Fee',
     first: {
       icon: 'assets/output-onlinepngtools.png',
@@ -415,23 +415,23 @@ export const challengeData = [
     },
     third: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'Fresh and Accounts with Drawdown'
     },
     fourth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: 'One Time Payment'
     },
     fifth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '30 days max to Pass'
     },
     sixth: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
+      details: '24/7 customer support'
     },
     seventh: {
       icon: 'Bull',
-      details: 'Passing Challenge & Verification'
-    }, 
+      details: 'Unlimited Free Retakes'
+    },  
   }
 ]
