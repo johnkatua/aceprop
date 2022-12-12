@@ -2,14 +2,24 @@
   width: 100%;
 }
 
-.test {
+.intro--carousel__left {
+  display: flex !important;
+  gap: 20px;
+  background-color: chocolate;
+  height: calc(100vh - 80px);
+  width: 100rem;
+}
+
+.intro--carousel__right {
   display: flex !important;
   background-color: chocolate;
   height: calc(100vh - 80px);
   width: 100rem;
 }
 
-.test-one {
+.intro--left__one {
+  display: flex;
+  align-items: center;
   width: 50%;
   background-color: cornflowerblue;
 }

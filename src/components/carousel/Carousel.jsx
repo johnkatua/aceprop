@@ -9,22 +9,25 @@ function IntroCarousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    cssEase: 'linear',
-    pauseOnHover: true
+    // autoplay: true,
+    // autoplaySpeed: 3000,
+    // cssEase: 'linear',
+    // pauseOnHover: true
   };
   return (
     <div className="intro--carousel">
-      <div className='slider--container1'>
         <Slider {...settings}>
-          <div className="test">
-            <div className='test-one'>1</div>
+          <div className="intro--carousel__left">
+            <div className='intro--left__one'>
+              <h2>Earn with zero hustle</h2>
+            </div>
             <div className='test-two'>2</div>
           </div>
-          <div className="test">Item2</div>
+          <div className="intro--carousel__right">
+            <div>!</div>
+            <div>2</div>
+          </div>
         </Slider>
-      </div>
     </div>
     // <Carousel>
     //   <Carousel.Item className='carousel--item' >
