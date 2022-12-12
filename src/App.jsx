@@ -13,6 +13,8 @@ import Strategy from './components/pages/strategy/Strategy';
 import Testimonials from './components/pages/testimonials/Testimonials';
 import TradingView from './components/trading-view/TradingView';
 import './styles/styles.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 const App = () => {
   return (

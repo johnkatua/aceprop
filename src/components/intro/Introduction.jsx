@@ -11,7 +11,8 @@ const Introduction = () => {
       <div className='intro--image'>
       </div>
       <div className='intro--details'>
-        <UncontrolledExample/>
+        A
+        {/* <UncontrolledExample/> */}
       </div>
     </div>
   )

@@ -21,6 +21,21 @@
   -moz-text-fill-color: transparent;
 }
 
+.slider--container {
+  display: flex;
+  gap: 20px;
+}
+
+.slick-dots button::before {
+  color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color:White !important;
+  font-size: 1.5rem;
+}
+
+
 .testimonials--details {
   display: flex;
   background-color: rgba(179, 18, 98, 0.453);

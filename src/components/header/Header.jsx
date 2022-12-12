@@ -21,7 +21,7 @@ const Header = () => {
 
   const isMobile = width < 768 ? true : false;
   return (
-    <div className='header--container'>
+    <div className='header--container' id="header--box">
       <div className='header--logo'>
         <img src='../../assets/logo.png' />
       </div>
