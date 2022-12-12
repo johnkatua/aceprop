@@ -7,8 +7,7 @@ const TestCarousel = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
-    color: 'white'
+    slidesToScroll: 1
   }
   return (
     <div  className='slider'>
