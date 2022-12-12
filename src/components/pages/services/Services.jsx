@@ -3,7 +3,7 @@ import './services.css'
 
 const Services = () => {
   return (
-    <div className='services--container'>
+    <div className='services--container' id="service">
       <div className='services--header'>
         Our Services
       </div>
@@ -37,9 +37,6 @@ const Services = () => {
                     EARN REAL MONEY
                 </button>
               </a>
-            {/* <button className='services--button'>
-              EARN REAL MONEY
-            </button> */}
           </div>
           <div className='services--item--title'> 
             03. Funded Account Management
