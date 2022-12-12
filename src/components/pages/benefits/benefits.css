@@ -8,6 +8,11 @@
   padding: 40px 0;
 }
 
+.benefits--container a {
+  text-decoration: none;
+  color: white;
+}
+
 .benefits--left {
   display: flex;
   flex-direction: column;

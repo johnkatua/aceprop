@@ -42,9 +42,11 @@ const Benefits = () => {
         <div className='benefits--item--submit'>
           Submit Your Account & Start Earning.
         </div>
-        <div className='benefits--item--started'>
-          Get Started
-        </div>
+        <a href='#challenge'>
+          <div className='benefits--item--started'>
+            Get Started
+          </div>
+        </a>
       </div>
       <div className='benefits--right'>
         <div className='benefits--right__header'>

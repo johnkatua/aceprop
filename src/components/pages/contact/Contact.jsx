@@ -18,9 +18,11 @@ const Contact = () => {
           <b>Contact Us</b> Now To Get Started.
         </div>
         <div className='contact--media'>
-          <div className='contact--media__item'>
-            <FaTelegram/> Message Us Now on Telegram
-          </div>
+          <a href='https://t.me/Emman_4X' target="_blank" rel="noopener noreferrer">  
+            <div className='contact--media__item'>
+              <FaTelegram/> Message Us Now on Telegram
+            </div>
+          </a>
           <div className='contact--media__item'>
             <FaEnvelope/> Send Us an Email
           </div>

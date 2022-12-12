@@ -30,6 +30,12 @@
   display: flex;
   gap: 20px;
 }
+
+.contact--media a {
+  text-decoration: none;
+  color: white;
+}
+
 .contact--details--tag{
   font-size: 16px;
 }
