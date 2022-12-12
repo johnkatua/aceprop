@@ -4,17 +4,10 @@
 
 .intro--carousel__left {
   display: flex !important;
-  gap: 20px;
-  background-color: chocolate;
+  color: var(--white);
   height: calc(100vh - 80px);
   width: 100rem;
-}
-
-.intro--carousel__right {
-  display: flex !important;
-  background-color: chocolate;
-  height: calc(100vh - 80px);
-  width: 100rem;
+  padding: 0 40px;
 }
 
 .intro--left__one {
