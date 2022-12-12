@@ -29,11 +29,21 @@ const Header = () => {
         {!isMobile ? (
         <>
           <div className='header--links'>
-            <div>Home</div>
-            <div>Services</div>
-            <div>Pricing</div>
-            <div>Contact</div>
-            <div>FAQ</div>
+            <a href="#intro">
+              Home
+            </a>
+            <a href="#service">
+              Services
+            </a>
+            <a href="#challenge">
+              Pricing
+            </a>
+            <a href="#contact">
+              Contact
+            </a>
+            <a href="#intro">
+              FAQ
+            </a>
           </div>
           <div className='header--btn'>
             <a href='https://t.me/Emman_4X' target="_blank" rel="noopener noreferrer">

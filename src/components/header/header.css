@@ -36,6 +36,17 @@
   cursor: pointer;
 }
 
+.header--links a {
+  color: gray;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.header--links a:hover {
+  color: var(--white);
+}
+
 .header--btn {
   padding: 10px 30px;
   background-color: blue;

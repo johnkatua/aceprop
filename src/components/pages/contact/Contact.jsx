@@ -4,7 +4,7 @@ import {FaEnvelope, FaInstagram, FaTelegram} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div className='contact--container'>
+    <div className='contact--container' id="contact">
       <div className='contact--header'>
         <span>
           Don't see your favorite account size that works for you? We have other options. 

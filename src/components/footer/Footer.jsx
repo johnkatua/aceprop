@@ -88,16 +88,24 @@ const Footer = () => {
                 Links
               </div>
               <div className="footer--card__item">
-                Home
+                <a href='#intro'>
+                  Home
+                </a>
               </div>
               <div className="footer--card__item">
-                Pricing
+                <a href='#challenge'>
+                  Pricing
+                </a>
               </div>
               <div className="footer--card__item">
-                Services
+                <a href='#service'>
+                  Services
+                </a>
               </div>
               <div className="footer--card__item">
-                Contact
+                <a href='#contact'>
+                  Contact
+                </a>
               </div>
             </div>
             <div className="footer--links__card">
