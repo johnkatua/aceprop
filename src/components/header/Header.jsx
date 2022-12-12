@@ -41,7 +41,7 @@ const Header = () => {
             <a href="#contact">
               Contact
             </a>
-            <a href="#intro">
+            <a href="#footer">
               FAQ
             </a>
           </div>

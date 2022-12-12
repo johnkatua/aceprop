@@ -16,8 +16,9 @@ const Footer = () => {
   const [ data  ] = Questions;
   let leftData = data.item1;
   let rightData = data.item2;
+
   return (
-    <div className='footer'>
+    <div className='footer' id="footer">
       <div className='footer--top'> 
         <div className="footer--top__box">
           <div className='footer--top__header'>
@@ -53,9 +54,13 @@ const Footer = () => {
               <img src="../../assets/logo.png" alt="logo" />
             </div>
             <div className='footer--icons--icon'>
-             <li><FaEnvelope/> </li>
-             <li><FaInstagram/></li>               
-              </div>
+              <a href='mailto:acefxtraders@gmail.com'>
+                <li><FaEnvelope/> </li>
+              </a>
+              <a href='https://www.instagram.com/acepropfirmtraders/' target="_blank" rel='noopener noreferrer'>
+                <li><FaInstagram/></li>               
+              </a>
+            </div>
           </div>
           <div className='footer--links'>
             <div className="footer--links__card">
