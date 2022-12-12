@@ -1,0 +1,43 @@
+.challenge--overlay {
+  background-color: white;
+  width: 50%;
+  padding: 20px;
+  color: black;
+  border-radius: 10px;
+}
+
+.challenge--overlay__item:not(:last-child) {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.challenge--overlay__item label {
+  margin-bottom: 10px;
+}
+
+.challenge--overlay__item input {
+  padding: 7px 15px;
+}
+
+.challnge--overlay__firstName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.challenge--overlay__currency {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.challenge--overlay button {
+  background-color: blue;
+  padding: 10px 25px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+}
