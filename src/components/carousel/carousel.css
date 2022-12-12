@@ -1,11 +1,22 @@
 .intro--carousel {
-  background-color: blue;
   width: 100%;
 }
 
 .test {
+  display: flex !important;
   background-color: chocolate;
   height: calc(100vh - 80px);
+  width: 100rem;
+}
+
+.test-one {
+  width: 50%;
+  background-color: cornflowerblue;
+}
+
+.test-two {
+  width: 50%;
+  background-color: crimson;
 }
 
 .carousel--item {

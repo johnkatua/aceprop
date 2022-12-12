@@ -14,7 +14,10 @@ function IntroCarousel() {
     <div className="intro--carousel">
       <div className='slider--container1'>
         <Slider {...settings}>
-          <div className="test">Item1</div>
+          <div className="test">
+            <div className='test-one'>1</div>
+            <div className='test-two'>2</div>
+          </div>
           <div className="test">Item2</div>
         </Slider>
       </div>
