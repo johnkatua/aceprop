@@ -24,11 +24,11 @@ function IntroCarousel() {
                 Funded account and receive up to 90% of profits, 
                 while we do all the hard work for you.
               </p>
-                <a href='#challenge'>
-              <button>
-                  Get Started
-              </button>
-                </a>
+              <a href='#challenge'>
+                <button>
+                    Get Started
+                </button>
+              </a>
             </div>
             <div className='intro--left__two'>
               <img
@@ -43,9 +43,11 @@ function IntroCarousel() {
               <p>
                 We will help you PASS prop firm challenges and get a Funded Account.
               </p>
-              <button>
-                Get Started
-              </button>
+              <a href='#challenge'>
+                <button>
+                    Get Started
+                </button>
+              </a>
             </div>
             <div className='intro--left__two'>
               <img

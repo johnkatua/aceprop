@@ -51,19 +51,35 @@
 
 .services--button--tag{
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
 }
 
-.services--button{
-  border-radius: 17px !important;
+.services--button--tag a {
   width: 100%;
-  line-height: 46px;
-  padding-left: 23px;
-  padding-right: 23px;
-  color: var(--white);
-  background-color: rgb(9, 0, 189);
-  border: 1px solid var(--white);
+  text-decoration: none;
+}
+
+.services--button{
+  border-radius: 50px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  padding: 13px 40px;
+  width: 100%;
+  background-color: var(--blue);
+  outline: none;
+  border: none;
   cursor: pointer;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.services--button:hover {
+  background-color: var(--lightBlue);
 }
 
 .services--item--body{

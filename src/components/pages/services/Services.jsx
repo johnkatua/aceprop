@@ -32,9 +32,14 @@ const Services = () => {
         </div>
         <div className="services--item">
           <div className='services--button--tag'>
-            <button className='services--button'>
+            <a href='#challenge'>
+                <button className='services--button'>
+                    EARN REAL MONEY
+                </button>
+              </a>
+            {/* <button className='services--button'>
               EARN REAL MONEY
-            </button>
+            </button> */}
           </div>
           <div className='services--item--title'> 
             03. Funded Account Management
