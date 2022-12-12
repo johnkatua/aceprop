@@ -63,16 +63,24 @@ const Footer = () => {
                 PropFirms We Use
               </div>
               <div className="footer--card__item">
-                FTMO
+                <a href='https://ftmo.com/en/' target="_blank" rel='noopener noreferrer'>
+                  FTMO
+                </a>
               </div>
               <div className="footer--card__item">
-                My Forex Funds
+                <a href='https://myforexfunds.com/' target="_blank" rel='noopener noreferrer'>
+                  My Forex Funds
+                </a>
               </div>
               <div className="footer--card__item">
-                Traders central Fund
+                <a href='https://www.traderseco.com/' target="_blank" rel='noopener noreferrer'>
+                  Traders central Fund
+                </a>
               </div>
               <div className="footer--card__item">
-                The Prop Trading
+                <a href='https://www.theproptrading.com.au/' target="_blank" rel='noopener noreferrer'>
+                  The Prop Trading
+                </a>
               </div>
             </div>
             <div className="footer--links__card">
@@ -97,13 +105,19 @@ const Footer = () => {
                 Quick Links
               </div>
               <div className="footer--card__item">
-                Trading View
+                <a href='https://www.tradingview.com/' target="_blank" rel='noopener noreferrer'>
+                  Trading View
+                </a>
               </div>
               <div className="footer--card__item">
-                Forex Factory
+                <a href='https://www.forexfactory.com/' target="_blank" rel='noopener noreferrer'>
+                  Forex Factory
+                </a>
               </div>
               <div className="footer--card__item">
-                Baby Pips
+                <a href='https://www.babypips.com/' target="_blank" rel='noopener noreferrer'>
+                  Baby Pips
+                </a>
               </div>
             </div>
             <div className="footer--links__card">
