@@ -1,3 +1,13 @@
+.intro--carousel {
+  background-color: blue;
+  width: 100%;
+}
+
+.test {
+  background-color: chocolate;
+  height: calc(100vh - 80px);
+}
+
 .carousel--item {
   width: 100vw;
   max-width: var(--containerWidth);

@@ -1,9 +1,7 @@
 import React from 'react';
-import './intro.css'
-import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
-import { Carousel } from 'react-responsive-carousel';
-import UncontrolledExample from '../carousel/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './intro.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import IntroCarousel from '../carousel/Carousel';
 
 const Introduction = () => {
   return (
@@ -11,9 +9,11 @@ const Introduction = () => {
       <div className='intro--image'>
       </div>
       <div className='intro--details'>
-        A
-        {/* <UncontrolledExample/> */}
+        <IntroCarousel />
       </div>
+      {/* <div className='intro--details'>
+        <IntroCarousel />
+      </div> */}
     </div>
   )
 }
