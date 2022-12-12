@@ -1,21 +1,18 @@
 import React from 'react'
-import './modal.css';
 
-const Modal = ({ open, content }) => {
-  if (!open) return null;
+const HeaderOverlay = ({ closeModal }) => {
   return (
-    <div className='overlay'>
-      {content}
-      {/* <div onClick={closeModal} className='closeBtn'>X</div>
+    <div>
+      <div onClick={closeModal} className='closeBtn'>X</div>
       <div className="modal--container">
         <div className="modal--item">Home</div>
         <div className="modal--item">Services</div>
         <div className="modal--item">Pricing</div>
         <div className="modal--item">Contact</div>
         <div className="modal--item">FAQ</div>
-      </div> */}
+      </div>
     </div>
   )
 }
 
-export default Modal;
+export default HeaderOverlay

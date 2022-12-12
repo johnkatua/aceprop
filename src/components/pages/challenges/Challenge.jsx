@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { challengeData } from '../../../data';
+import Modal from '../../modal/Modal';
+import ChallengeOverlay from '../../challengeOverlay.jsx/ChallengeOverlay';
 import './challenge.css';
 
 const Challenge = () => {
+  const [open, setIsOpen] = useState(false);
   return (
     <div className='challenge--container' id="challenge">
       <div className='challenge--head'>
@@ -85,9 +88,10 @@ const Challenge = () => {
                 {item.seventh.details}
               </span>
             </div>
-            <button className='challenge--btn'>
+            <button className='challenge--btn' onClick={() => setIsOpen(true)}>
               Start Now
             </button>
+            <Modal open={open} content={<ChallengeOverlay closeModal={() => setIsOpen(false)} />} />
           </div>
         ))}
       </div>

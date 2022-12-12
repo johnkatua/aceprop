@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
 import Modal from '../modal/Modal';
+import HeaderOverlay from '../headerOverlay/HeaderOverlay';
 import { FiMenu } from 'react-icons/fi'
 
 const Header = () => {
@@ -57,7 +58,7 @@ const Header = () => {
           </div>
           )}
       </div>
-      <Modal open={openModal} closeModal={() => setOpenModal(false)} />
+      <Modal open={openModal} content={<HeaderOverlay closeModal={() => setOpenModal(false)} />} />
     </div>
   )
 }
