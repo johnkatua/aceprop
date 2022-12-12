@@ -8,6 +8,11 @@
   padding: 40px 0;
 }
 
+.community--container a {
+  text-decoration: none;
+  color: white;
+}
+
 .community--details {
   display: flex;
   flex-direction: column;
@@ -51,13 +56,10 @@
     padding: 40px 10px;
     justify-content: center;
     align-items: center;
-    /* background-color: violet; */
   }
 
   .community--details {
     justify-content: center;
-    /* align-items: center; */
-    /* background-color: wheat; */
     width: 100%;
   }
 

@@ -18,9 +18,11 @@ const Community = () => {
             For more testimonials and daily trading updates
           </p>
         </div>
-        <div className='community--btn'>
-          Join Our Telegram Group
-        </div>
+        <a href='https://t.me/Emman_4X' target="_blank" rel="noopener noreferrer">
+          <div className='community--btn'>
+            Join Our Telegram Group
+          </div>
+        </a>
       </div>
     </div>
   )

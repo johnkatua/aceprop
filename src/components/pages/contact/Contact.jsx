@@ -23,12 +23,16 @@ const Contact = () => {
               <FaTelegram/> Message Us Now on Telegram
             </div>
           </a>
-          <div className='contact--media__item'>
-            <FaEnvelope/> Send Us an Email
-          </div>
-          <div className='contact--media__item'>
-            <FaInstagram/> Message Us Now on Instagram
-          </div>
+          <a href='mailto:acefxtraders@gmail.com'>  
+            <div className='contact--media__item'>
+              <FaEnvelope/> Send Us an Email
+            </div>  
+          </a>
+          <a href='https://www.instagram.com/acepropfirmtraders/' target="_blank" rel="noopener noreferrer">  
+            <div className='contact--media__item'>
+              <FaInstagram/> Message Us Now on Instagram
+            </div>
+          </a>
         </div>
       </div>
       <div className='contact--footer'>
