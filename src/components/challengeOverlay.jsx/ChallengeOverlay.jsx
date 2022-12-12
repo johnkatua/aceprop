@@ -19,15 +19,15 @@ const ChallengeOverlay = ({ closeModal }) => {
           <label>First Name:</label>
           <span onClick={closeModal}>X</span>
         </div>
-        <input type="text" />
+        <input type="text" placeholder='Text Input' />
       </div>
       <div className="challenge--overlay__item">
         <label>Last Name:</label>
-        <input type="text" />
+        <input type="text" placeholder='Text Input' />
       </div>
       <div className="challenge--overlay__item">
         <label>Email:</label>
-        <input type="email" />
+        <input type="email" placeholder='Email' />
       </div>
       <div className='challenge--overlay__currency'>
         <div>Currency</div>

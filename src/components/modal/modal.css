@@ -13,8 +13,6 @@
 
 .modal--container {
   position: fixed;
-  top: 45%;
-  left: 47%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
@@ -26,13 +24,18 @@
   cursor: pointer;
 }
 
+.modal--item a {
+  color: white;
+  text-decoration: none;
+}
+
 .closeBtn {
   position: fixed;
   top: 35px;
   left: 25px;
   font-size: var(--fontSizeMedium);
   border: 1px solid white;
-  padding: 0 10px;
+  padding: 5px 10px;
   border-radius: 5px;
   font-size: 20px;
 }
