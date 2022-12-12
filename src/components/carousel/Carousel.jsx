@@ -24,9 +24,11 @@ function IntroCarousel() {
                 Funded account and receive up to 90% of profits, 
                 while we do all the hard work for you.
               </p>
+                <a href='#challenge'>
               <button>
-                Get Started
+                  Get Started
               </button>
+                </a>
             </div>
             <div className='intro--left__two'>
               <img

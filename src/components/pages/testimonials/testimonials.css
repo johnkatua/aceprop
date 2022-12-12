@@ -27,6 +27,7 @@
 }
 
 .slick-dots button::before {
+  margin-top: 20px;
   color: white !important;
 }
 

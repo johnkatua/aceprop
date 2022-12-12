@@ -2,6 +2,11 @@
   width: 100%;
 }
 
+.intro--carousel a {
+  color: white;
+  text-decoration: none;
+}
+
 .intro--carousel__left {
   display: flex !important;
   color: var(--white);
@@ -112,6 +117,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .intro--left__two {
+    display: none;
+  }
+
+  .intro--left__one {
+    width: 100%;
+  }
+
+  .intro--left__one button {
+    width: 100%;
+    padding: 17px;
+  }
+
   .intro--details__right {
     display: none;
   }

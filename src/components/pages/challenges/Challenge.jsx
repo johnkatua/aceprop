@@ -4,7 +4,7 @@ import './challenge.css';
 
 const Challenge = () => {
   return (
-    <div className='challenge--container'>
+    <div className='challenge--container' id="challenge">
       <div className='challenge--head'>
         CHALLENGE AND VERIFICATION
       </div>
