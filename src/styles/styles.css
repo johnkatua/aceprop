@@ -20,6 +20,10 @@
   --blue: rgb(59, 59, 233);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .app {
   display: flex;
   flex-direction: column;
