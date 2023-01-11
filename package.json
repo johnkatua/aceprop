@@ -4,7 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4060"
   },
   "repository": {
     "type": "git",

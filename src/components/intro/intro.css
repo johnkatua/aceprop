@@ -3,7 +3,7 @@
   position: relative;
   background-color: black;
   background: linear-gradient(to left, rgba(7, 6, 9, 0) 10%,
-              rgba(40, 12, 25)), url(assets/bearnbull.jpg);
+              rgba(40, 12, 25)), url(/assets/bearnbull.jpg);
   background-blend-mode: screen;
   background-repeat: no-repeat;
   background-size: 100% 100%;

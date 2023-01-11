@@ -29,7 +29,7 @@ const Testimonials = () => {
       <div className='testimonials--header'>
         Testimonials
       </div>
-      {/* <TestCarousel /> */}
+      <TestCarousel />
     </div>
   )
 }
