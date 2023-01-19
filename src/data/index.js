@@ -262,8 +262,7 @@ export const Questions = [
         id: generateRandomId(),
         name: 'Where are you located?',
         details: `
-          Our company and trading floor are located 
-          at251 N, Milton, Suite 36., Akron, Ohio.
+          Our company is located in Doha, Qatar.
         `
       },
       { 
