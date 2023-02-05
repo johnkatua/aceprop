@@ -57,7 +57,10 @@ const Footer = () => {
               <a href='mailto:acefxtraders@gmail.com'>
                 <li><FaEnvelope/> </li>
               </a>
-              <a href='https://www.instagram.com/acepropfirmtraders/' target="_blank" rel='noopener noreferrer'>
+              {/* <a href='https://www.instagram.com/acepropfirmtraders/' target="_blank" rel='noopener noreferrer'>
+                <li><FaInstagram/></li>               
+              </a> */}
+              <a href='test' target="_blank" rel='noopener noreferrer'>
                 <li><FaInstagram/></li>               
               </a>
             </div>
